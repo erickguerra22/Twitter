@@ -1,0 +1,23 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "Proyecto final, tercer bimestre",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Erick Guerra",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.26.0",
+    "mongoose": "^5.9.19"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
